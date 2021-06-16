@@ -1,0 +1,147 @@
+* {
+    scroll-behavior: smooth;
+}
+
+.marg {
+    margin-top: 70px;
+}
+
+.margButton {
+    margin-top: 70px;
+}
+
+
+.comp {
+    padding: 25px;
+}
+
+
+.margHead {
+    margin-top: 70px;
+}
+
+
+.pad {
+    padding: 50px 0 50px 0;
+}
+
+.padChapter {
+    padding: 20px 0 0 0;
+}
+
+
+.bg1 {
+    background-image: url("../pictures/main/photo.png");
+    background-repeat-y: no-repeat;
+    background-position: bottom;
+
+}
+
+.vl {
+    border-left: 6px solid green;
+    height: 500px;
+}
+
+.checked {
+    color: orange;
+}
+
+.dark-brue {
+    background-color: #070938;
+}
+
+.bord {
+    border-right: 1px solid gray;
+}
+
+@media (max-width: 500px) {
+    .comp {
+        padding: 20px 0 20px 0;
+    }
+
+    .margButton {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    .margButtonLeft {
+        margin-left: 150px;
+    }
+
+    .marg {
+        margin-top: 20px;
+    }
+
+    .margHead {
+        margin-top: 0px;
+    }
+
+    .comLogo {
+        padding: 20px 0 0 40px;
+    }
+    .sizeTextHeader {
+        font-size: 35px;
+    }
+    .sizeTextP {
+        font-size: 20px;
+    }
+}
+
+.sosyalbutonlar a {
+    background: #a1a1a1;
+    text-decoration: none;
+    color: #FFF;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 30px;
+    overflow: hidden;
+    position: relative;
+    line-height: 60px;
+    text-align: center;
+}
+
+.sosyalbutonlar a {
+    transition: transform 0.4s linear 0s,
+    border-top-left-radius 0.1s linear 0s,
+    border-top-right-radius 0.1s linear 0.1s,
+    border-bottom-right-radius 0.1s linear 0.2s,
+    border-bottom-left-radius 0.1s linear 0.3s;
+
+}
+
+.sosyalbutonlar .facebook:hover {
+    background-color: #3b5998;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.sosyalbutonlar .twitter:hover {
+    background-color: #00aced;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.sosyalbutonlar .google-plus:hover {
+    background-color: #dd4b39;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.sosyalbutonlar .instagram:hover {
+    background-color: #dfdf61;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+.sosyalbutonlar .linkedin:hover {
+    background-color: #00aced;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
+
+
+
+
